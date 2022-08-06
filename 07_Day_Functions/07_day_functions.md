@@ -399,13 +399,13 @@ Sometimes we pass default values to parameters, when we invoke the function if w
 ```js
 // syntax
 // Declaring a function
-function functionName(param = value) {
+function functionName(param = 'value') {
   //codes
 }
 
 // Calling function
 functionName()
-functionName(arg)
+functionName('arg')
 ```
 
 **Example:**
